@@ -1,252 +1,229 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-
-<a name="readme-top"></a>
-
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
+<!-- Repository Information & Links-->
 <br />
-<div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-  <h3 align="center">Best-README-Template</h3>
+![GitHub repo size](https://img.shields.io/github/repo-size/MikeMaynard14/termoneexample)
+![GitHub watchers](https://img.shields.io/github/watchers/MikeMaynard14/termoneexample)
+![GitHub language count](https://img.shields.io/github/languages/count/MikeMaynard14/termoneexample)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MikeMaynard14/termoneexample)
+
+<!-- HEADER SECTION -->
+<h5 align="center" style="padding:0;margin:0;">Liam Wedge</h5>
+<h5 align="center" style="padding:0;margin:0;">21100218</h5>
+<h6 align="center">DV300 - Term 2 Project | 2023</h6>
+</br>
+<p align="center">
+
+  <a href="https://github.com/NoSleepTillLambos/TheNaughtySailor">
+    <img src="assets/logo/logo1.png" alt="Logo">
+  </a>
+  
+  <h3 align="center">The Naughty Sailor</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    This project was developed using React-native, Firebase and React Native elements <br>
+    
+    
+   <br />
+   <br />
+   <a href="https://drive.google.com/drive/folders/1bHFGq7nIGPdDqJGrCNNCiSqTUyPk-h7F">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/NoSleepTillLambos/TheNaughtySailor">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p>
-</div>
-
+    
+</p>
 <!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
 
-<!-- ABOUT THE PROJECT -->
+## Table of Contents
 
-## About The Project
+- The project is centred around the world of Block babies, a fictional world I have developed based on the game <br/>
+  <a href="https://axieinfinity.com/">Axie infinity</a>
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [How to install](#how-to-install)
+- [Features and Functionality](#features-and-functionality)
+- [Concept Process](#concept-process)
+  - [Ideation](#ideation)
+  - [WireFrames](#wireframes)
+  - [Custom UI](#user-flow)
+- [Development Process](#development-process)
+  - [Implementation Process](#implementation-process)
+  - [Future Implementation](#peer-reviews)
+- [Final Outcome](#final-outcome)
+  - [Mockups](#mockups)
+  - [Video Demonstration](#video-demonstration)
+- [Conclusion](#conclusion)
+- [License](#license)
+- [Contact](liamwedge00@gmail.com)
+- [Acknowledgements](#acknowledgements)
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- header image of project -->
 
-Kinder Care is a React and Firebase project built to aid children with diseases and educate them about possible operations and therapy sessions they may undergo to make the process less intimidating.
+![image1](assets/mockups/18837903.png)
 
-Here's why:
+### Project Description
 
-- Your time should be focused on creating something amazing. A project that solves a problem and helps others
-- You shouldn't be doing the same tasks over and over like creating a README from scratch
-- You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
-
-Use the `BLANK_README.md` to get started.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Naughty sailor is based off one of my favourite cocktails, it allows users to vote on certain drinks and enter into competitions themselves to prove who the best cocktail maker around
+is!
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-- [![Next][Next.js]][Next-url]
-- [![React][React.js]][React-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [Firebase](https://console.firebase.google.com/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
 
 <!-- GETTING STARTED -->
 
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+The following instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+Ensure that you have the latest version of [NPM](https://www.npmjs.com/) installed on your machine. The [GitHub Desktop](https://desktop.github.com/) program will also be required.
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+### How to install
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+Here are a couple of ways to clone this repo:
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
-   ```
+1.  GitHub Desktop </br>
+    Enter `https://github.com/NoSleepTillLambos/TheNaughtySailor` into the URL field and press the `Clone` button.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+2.  Clone Repository </br>
+    Run the following in the command-line to clone the project:
 
-<!-- USAGE EXAMPLES -->
+    ```sh
+    git clone https://github.com/NoSleepTillLambos/TheNaughtySailor
+    ```
 
-## Usage
+        Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+3.  Install Dependencies </br>
+    Run the following in the command-line to install all the required dependencies:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+    ```sh
+    npm install
+    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+4.  An API key is not required for this installation
 
-<!-- ROADMAP -->
+<!-- FEATURES AND FUNCTIONALITY-->
+<!-- You can add the links to all of your imagery at the bottom of the file as references -->
 
-## Roadmap
+## Features and Functionality
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-  - [ ] Chinese
-  - [ ] Spanish
+<!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+![image2](assets/mockups/fetch.JPG)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Users can select a pre existing competition where they can go on to vote and comment on other entries
 
-<!-- CONTRIBUTING -->
+### Feature 2
 
-## Contributing
+![image6](assets/mockups/home.JPG)
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+- Home page, users are introduced to the app and can then move to the create entry screen where they can enter into a cocktail comp and compete
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+### Feature 3
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+![image7](assets/mockups/createEntry.JPG)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- Users can create a cocktail entry by uploading the details and an image of their creation, along with some details about the ingredients and other important information so users can try the recipes at home for themselves!
+- Users being able to try the cocktails out is the entire premise of the app, teaching keen learners a new hobbie!
+
+<!-- CONCEPT PROCESS -->
+<!-- Briefly explain your concept ideation process -->
+<!-- here you will add things like wireframing, data structure planning, anything that shows your process. You need to include images-->
+
+## Concept Process
+
+The concept originated from my job. I work as a bartender at a high end establishment and always felt the need for customers to have the ability to visit the shop,
+have a cocktail and then rate it on an app of some sort, thus my idea was born!
+
+### Road Map and conceptual process
+
+![image4](assets/mockups/Frame66.png)
+![image10](assets/userFlow.jpg)
+
+<!-- DEVELOPMENT PROCESS -->
+
+## Development Process
+
+- I spent a lot of time on apps that were in line with what i was trying to create, i.e restaurants, bars etc and went through the functionality and how the app flowed
+
+- There is still a lot of work to do however but being that it's something i am passionate about im excited for the future of it
+
+### Implementation Process
+
+<!-- stipulate all of the functionality you included in the project -->
+<!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
+
+- A big part of the process was getting familiar with Expo and the world of mobile development and getting familiar with working on android and ios.
+
+#### Above And Beyond
+
+Going above and beyond the brief
+
+<!-- what did you learn outside of the classroom and implement into your project-->
+
+- Search functionality
+- Google login and verification (todo)
+
+### Future Implementation
+
+<!-- stipulate functionality and improvements that can be implemented in the future. -->
+
+- In future i would like to publish the app to the app store, Firebase could be an issue however with calls to the db. I'd really like to create something real world ready.
+- Functionality to login with a Google account
+- Google reviews
+- Posting comments to the db
+
+<!-- MOCKUPS -->
+
+## Final Outcome
+
+### Mockups
+
+![image2](assets/mockups/2.png)
+<br>
+![image3](assets/mockups/3.png)
+
+<!-- VIDEO DEMONSTRATION -->
+
+### Video Demonstration
+
+To see a run through of the application, please click below:
+
+[View Demonstration](https://drive.google.com/drive/folders/1IiMC4ZpDRhs8Q5RuAk9rlZmzaHfeihNa)
+
+See the [open issues](https://github.com/NoSleepTillLambos/TheNaughtySailor) for a list of proposed features (and known issues).
+
+<!-- AUTHORS -->
+
+## Authors
+
+[LiamWedge](https://github.com/NoSleepTillLambos)
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.\
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTACT -->
+<!-- LICENSE -->
 
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+- **Liam Wedge** - [liamwedge00@gmail.com]()
+- **Naughty Sailor** - https://github.com/NoSleepTillLambos/TheNaughtySailor
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+<!-- ACKNOWLEDGEMENTS -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Acknowledgements
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- all resources that you used and Acknowledgements here -->
 
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-- [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-- [Malven's Grid Cheatsheet](https://grid.malven.co/)
-- [Img Shields](https://shields.io)
-- [GitHub Pages](https://pages.github.com)
-- [Font Awesome](https://fontawesome.com)
-- [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com
+- [Firebase](https://console.firebase.google.com/)
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
