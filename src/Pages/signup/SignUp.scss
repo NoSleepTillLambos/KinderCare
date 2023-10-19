@@ -1,0 +1,25 @@
+body {
+    background-image: url("../../Assets/Background/background.png");
+    background-repeat: no-repeat;
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    width: 100vw;
+    image-rendering: -webkit-optimize-contrast;
+    background-repeat: no-repeat;  
+    background-size: cover;
+
+}
+.auth-form {
+    max-width: 360px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 40px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+    background: #fff;
+  }
