@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
-import { projectAuth } from "../Firebase/firebaseConfig";
+import {
+  projectAuth,
+  projectStorage,
+  projectFirestore,
+} from "../Firebase/firebaseConfig";
 import { useAuthContext } from "./useAuthContext";
 
 export const useSignup = () => {
@@ -8,7 +12,7 @@ export const useSignup = () => {
   const [isPending, setIsPending] = useState(false);
   const { dispatch } = useAuthContext();
 
-  const signup = async (email, password, displayName) => {
+  const signup = async (email, password, username, icon) => {
     setError(null);
     setIsPending(true);
 
@@ -20,11 +24,25 @@ export const useSignup = () => {
       );
 
       if (!res) {
-        throw new Error("Could not complete signup");
+        throw new Error("OOPS!!! Could not complete signup");
       }
 
+      // done after user created and profile is updated
+      // update user thumbnail
+      // folder name is the users uid
+      const uploadPath = `icons/${res.user.uid}/${icon.name}`;
+      const userImage = await projectStorage.ref(uploadPath).put(icon);
+      const imgUrl = await userImage.ref.getDownloadURL();
+
       // add display name to user
-      await res.user.updateProfile({ displayName });
+      await res.user.updateProfile({ username, photoURL: imgUrl });
+
+      // create a user doc
+      await projectFirestore.collection("users").doc(res.user.uid).set({
+        online: true,
+        username,
+        photoURL: imgUrl,
+      });
 
       // dispatch login action
       dispatch({ type: "LOGIN", payload: res.user });

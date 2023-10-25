@@ -1,13 +1,15 @@
 import "./NavBar.scss";
 import Logo from "../Assets/Logo/logo.png";
 import { Link, Route } from "react-router-dom";
+import { useLogout } from "../hooks/useLogout";
 
 function NavBar() {
+  const { logout, isPending } = useLogout();
   return (
     <div className="navbar">
       <ul>
         <li className="logo">
-          <img src={Logo} alt="logo"></img>
+          <img src={Logo} style={{ marginLeft: "10px" }} alt="logo"></img>
           <span>Kinder Care</span>
         </li>
         <li>
@@ -17,7 +19,16 @@ function NavBar() {
           <Link to="/signup">Sign Up</Link>
         </li>
         <li>
-          <button className="btn">Logout</button>
+          {!isPending && (
+            <button className="btn" onClick={logout}>
+              Logout
+            </button>
+          )}
+          {isPending && (
+            <button className="btn" disabled onClick={logout}>
+              Logging out...
+            </button>
+          )}
         </li>
       </ul>
     </div>

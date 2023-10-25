@@ -1,0 +1,35 @@
+.card {
+    position: relative; 
+    
+    img {
+    width: 100%;
+    border-radius: 6px;
+    }
+    .front {
+    transform: rotateY(90deg);
+    position: absolute;
+    height: 15px;
+    transition: all ease-in 0.2s;
+  }
+  .flipped .front {
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+  }
+  .card .back {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+  }
+  .flipped .back {
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+  }
+ 
+  .diseaseInfo {
+    margin-top: -200px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+}
+
+  

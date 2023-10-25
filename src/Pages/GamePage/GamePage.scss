@@ -1,0 +1,35 @@
+.gamePage {
+    width: 70%;
+    display: grid;
+    margin:  4dvb auto;
+    text-align: center;
+
+
+    button {
+    background: none;
+    border: 2px solid #512D6D;
+    padding: 6px 12px;
+    border-radius: 4px;
+    width: 20%;
+    margin: auto;
+    color: #512D6D;
+    font-weight: bold;
+    margin-top: 1%;
+    cursor: pointer;
+    font-size: 1em;
+  }
+  button:hover {
+    background: #fff;
+    color: #512D6D;
+  }
+  .grid {
+    margin: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }  
+  
+}
+
+  
