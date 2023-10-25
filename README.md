@@ -9,18 +9,18 @@
 <!-- HEADER SECTION -->
 <h5 align="center" style="padding:0;margin:0;">Liam Wedge</h5>
 <h5 align="center" style="padding:0;margin:0;">21100218</h5>
-<h6 align="center">DV300 - Term 2 Project | 2023</h6>
+<h6 align="center">DV300 - Term 4 | 2023</h6>
 </br>
 <p align="center">
 
   <a href="https://github.com/NoSleepTillLambos/TheNaughtySailor">
-    <img src="assets/logo/logo1.png" alt="Logo">
+    <img src="src/Assets/Logo/logo.png" alt="Logo">
   </a>
   
-  <h3 align="center">The Naughty Sailor</h3>
+  <h3 align="center">Kinder Care</h3>
 
   <p align="center">
-    This project was developed using React-native, Firebase and React Native elements <br>
+    Project is built using Firebase, ReactJs, Google dialogflow <br>
     
     
    <br />
