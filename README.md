@@ -65,7 +65,7 @@
 Naughty sailor is based off one of my favourite cocktails, it allows users to vote on certain drinks and enter into competitions themselves to prove who the best cocktail maker around
 is!
 
-### Built With
+**Built With**
 
 [!Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
 [!React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
@@ -73,7 +73,6 @@ is!
 [!DialogFlow](https://img.shields.io/badge/dialogflow-FF9800?style=for-the-badge&logo=dialogflow&logoColor=white)
 [!Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 [!Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
-<!-- GETTING STARTED -->
 
 ## Getting Started
 
