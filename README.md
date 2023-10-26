@@ -1,10 +1,10 @@
 <!-- Repository Information & Links-->
 <br />
 
-![GitHub repo size](https://img.shields.io/github/repo-size/NoSleepTillLambos/TheNaughtySailor)
-![GitHub watchers](https://img.shields.io/github/watchers/NoSleepTillLambos/TheNaughtySailor)
-![GitHub language count](https://img.shields.io/github/languages/count/NoSleepTillLambos/TheNaughtySailor)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/NoSleepTillLambos/TheNaughtySailor)
+![GitHub repo size](https://img.shields.io/github/repo-size/NoSleepTillLambos/KinderCare)
+![GitHub watchers](https://img.shields.io/github/watchers/NoSleepTillLambos/KinderCare)
+![GitHub language count](https://img.shields.io/github/languages/count/NoSleepTillLambos/KinderCare)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/NoSleepTillLambos/KinderCare)
 
 <!-- HEADER SECTION -->
 <h5 align="center" style="padding:0;margin:0;">Liam Wedge</h5>
@@ -13,7 +13,7 @@
 </br>
 <p align="center">
 
-  <a href="https://github.com/NoSleepTillLambos/TheNaughtySailor">
+  <a href="https://github.com/NoSleepTillLambos/KinderCare">
     <img src="src/Assets/Logo/logo.png" alt="Logo">
   </a>
   
@@ -22,12 +22,10 @@
   <p align="center">
     Project is built using Firebase, ReactJs, Google dialogflow <br>
     
-    
-   <br />
    <br />
    <a href="https://drive.google.com/drive/folders/1bHFGq7nIGPdDqJGrCNNCiSqTUyPk-h7F">View Demo</a>
     ·
-    <a href="https://github.com/NoSleepTillLambos/TheNaughtySailor">Report Bug</a>
+    <a href="https://github.com/NoSleepTillLambos/KinderCare">Report Bug</a>
     ·
     
 </p>
@@ -35,8 +33,6 @@
 
 ## Table of Contents
 
-- The project is centred around the world of Block babies, a fictional world I have developed based on the game <br/>
-  <a href="https://axieinfinity.com/">Axie infinity</a>
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [How to install](#how-to-install)
