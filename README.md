@@ -152,9 +152,7 @@ have a cocktail and then rate it on an app of some sort, thus my idea was born!
 
 ## Development Process
 
-- I spent a lot of time on apps that were in line with what i was trying to create, i.e restaurants, bars etc and went through the functionality and how the app flowed
-
-- There is still a lot of work to do however but being that it's something i am passionate about im excited for the future of it
+- I took a lot of inspiration froma concept i saw previously from a company that showcased one of their ideas for an app they had developed early this year, the app was a hands on childs healthcare VR and AR setup where kids in hospitals could use VR to visit a virtual island where animals taught them about their diseases and the problems they were having, i found the app to be very inuitive, the UX and UI was just so inspiring i had to put it to the test and see what i could develop myself!
 
 ### Implementation Process
 
@@ -217,8 +215,8 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 ## Contact
 
-- **Liam Wedge** - [liamwedge00@gmail.com]()
-- **Naughty Sailor** - https://github.com/NoSleepTillLambos/TheNaughtySailor
+**Liam Wedge** - [liamwedge00@gmail.com]()
+**Naughty Sailor** - https://github.com/NoSleepTillLambos/TheNaughtySailor
 
 <!-- ACKNOWLEDGEMENTS -->
 
