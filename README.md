@@ -141,6 +141,8 @@ Here are a couple of ways to clone this repo:
 The concept originated from my job. I work as a bartender at a high end establishment and always felt the need for customers to have the ability to visit the shop,
 have a cocktail and then rate it on an app of some sort, thus my idea was born!
 
+<img src="src/Assets/Planning/planning.png"/>
+
 ### Road Map and conceptual process
 
 ![image4](assets/mockups/Frame66.png)
