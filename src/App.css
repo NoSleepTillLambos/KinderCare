@@ -5,20 +5,19 @@
   flex-grow: 1;
   padding: 0 60px;
 }
-@import url("https://fonts.googleapis.com/css2?family=Short+Stack&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap");
 /* variables */
 :root {
-  --heading-color: #444;
+  --heading-color: #bc9696;
   --text-color: #999;
-  --primary-color: #8d69f1;
-  --highlight-color: #d13267;
+  --primary-color: #f8485d;
+  --highlight-color: #512d6d;
   --bg-color: #f4f4f4;
 }
 
 /* base styles */
 body {
-  font-family: "Short Stack", cursive;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   font-size: 1.1em;
   background: var(--bg-color);
@@ -57,7 +56,6 @@ ul {
   color: #fff;
 }
 
-/* forms */
 label {
   display: block;
   margin: 24px auto;
