@@ -1,14 +1,31 @@
 .dashCon {
-  background-position: center;
-  background-size: cover;
-  
- background-repeat: no-repeat;
-  background-image: url("../../Assets/illustrations/background1.png");
+  height: 100%;
+  width: 100%;
+
+  .dashCon h1  h3 {
+    margin-top: 0.5%;
+  }
+  p {
+    margin-top: 0.5%;
+    color: var(--primary-color);
+  }
 }
 
+.homeimg {
+  width: 550px;
+  float: right;
+  margin-top: 5%;
+}
+.header {
+  width: 90%;
+  height: 90%;
+  margin: auto;
   
-  .header {
-    width: 90%;
-    margin: auto;
-    height: 40%;
-  }
+}
+.info  {
+  margin-left: 3%;
+  margin-top: 4%;
+  height: 400px;
+  width: 45%;
+float: left;
+}

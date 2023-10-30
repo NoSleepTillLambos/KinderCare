@@ -5,8 +5,7 @@
   flex-grow: 1;
   padding: 0 60px;
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;800&display=swap");
-/* variables */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap"); /* variables */
 :root {
   --heading-color: #bc9696;
   --text-color: #999;
@@ -17,20 +16,10 @@
 
 /* base styles */
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Quicksand", sans-serif;
   margin: 0;
   font-size: 1.1em;
   background: var(--bg-color);
-}
-ul,
-li,
-p,
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-  padding: 0;
 }
 ul {
   list-style-type: none;
