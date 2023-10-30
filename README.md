@@ -1,33 +1,31 @@
 <!-- Repository Information & Links-->
 <br />
 
-![GitHub repo size](https://img.shields.io/github/repo-size/MikeMaynard14/termoneexample)
-![GitHub watchers](https://img.shields.io/github/watchers/MikeMaynard14/termoneexample)
-![GitHub language count](https://img.shields.io/github/languages/count/MikeMaynard14/termoneexample)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/MikeMaynard14/termoneexample)
+![GitHub repo size](https://img.shields.io/github/repo-size/NoSleepTillLambos/KinderCare)
+![GitHub watchers](https://img.shields.io/github/watchers/NoSleepTillLambos/KinderCare)
+![GitHub language count](https://img.shields.io/github/languages/count/NoSleepTillLambos/KinderCare)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/NoSleepTillLambos/KinderCare)
 
 <!-- HEADER SECTION -->
 <h5 align="center" style="padding:0;margin:0;">Liam Wedge</h5>
 <h5 align="center" style="padding:0;margin:0;">21100218</h5>
-<h6 align="center">DV300 - Term 2 Project | 2023</h6>
+<h6 align="center">DV300 - Term 4 | 2023</h6>
 </br>
 <p align="center">
 
-  <a href="https://github.com/NoSleepTillLambos/TheNaughtySailor">
-    <img src="assets/logo/logo1.png" alt="Logo">
+  <a href="https://github.com/NoSleepTillLambos/KinderCare">
+    <img src="src/Assets/Logo/logo.png" alt="Logo">
   </a>
   
-  <h3 align="center">The Naughty Sailor</h3>
+  <h3 align="center">Kinder Care</h3>
 
   <p align="center">
-    This project was developed using React-native, Firebase and React Native elements <br>
+    Project is built using Firebase, ReactJs, Google dialogflow <br>
     
-    
-   <br />
    <br />
    <a href="https://drive.google.com/drive/folders/1bHFGq7nIGPdDqJGrCNNCiSqTUyPk-h7F">View Demo</a>
     ·
-    <a href="https://github.com/NoSleepTillLambos/TheNaughtySailor">Report Bug</a>
+    <a href="https://github.com/NoSleepTillLambos/KinderCare">Report Bug</a>
     ·
     
 </p>
@@ -35,8 +33,6 @@
 
 ## Table of Contents
 
-- The project is centred around the world of Block babies, a fictional world I have developed based on the game <br/>
-  <a href="https://axieinfinity.com/">Axie infinity</a>
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [How to install](#how-to-install)
@@ -62,16 +58,16 @@
 
 ### Project Description
 
-Naughty sailor is based off one of my favourite cocktails, it allows users to vote on certain drinks and enter into competitions themselves to prove who the best cocktail maker around
-is!
+<p align="center">Kindercare is a safe place for kids to learn more about their diseases and illnesses and read more about the kind of symptoms and experiences they may be having that are similar to other kids on the platform to let them know they are not alone </p>
 
-### Built With
+### Technologies
 
-- [Firebase](https://console.firebase.google.com/)
-- [React Native](https://reactnative.dev/)
-- [Expo](https://expo.dev/)
-
-<!-- GETTING STARTED -->
+![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![DialogFlow](https://img.shields.io/badge/dialogflow-FF9800?style=for-the-badge&logo=dialogflow&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 
 ## Getting Started
 
@@ -138,8 +134,9 @@ Here are a couple of ways to clone this repo:
 
 ## Concept Process
 
-The concept originated from my job. I work as a bartender at a high end establishment and always felt the need for customers to have the ability to visit the shop,
-have a cocktail and then rate it on an app of some sort, thus my idea was born!
+**I took a lot of inspiration froma concept i saw previously from a company that showcased one of their ideas for an app they had developed early this year, the app was a hands on childs healthcare VR and AR setup where kids in hospitals could use VR to visit a virtual island where animals taught them about their diseases and the problems they were having, i found the app to be very inuitive, the UX and UI was just so inspiring i had to put it to the test and see what i could develop myself!**
+
+<img width="500" height="500" src="src/Assets/Planning/planning.png"/>
 
 ### Road Map and conceptual process
 
@@ -150,9 +147,7 @@ have a cocktail and then rate it on an app of some sort, thus my idea was born!
 
 ## Development Process
 
-- I spent a lot of time on apps that were in line with what i was trying to create, i.e restaurants, bars etc and went through the functionality and how the app flowed
-
-- There is still a lot of work to do however but being that it's something i am passionate about im excited for the future of it
+***Attitude over aptitude*** 
 
 ### Implementation Process
 
@@ -215,8 +210,8 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 ## Contact
 
-- **Liam Wedge** - [liamwedge00@gmail.com]()
-- **Naughty Sailor** - https://github.com/NoSleepTillLambos/TheNaughtySailor
+**Liam Wedge** - [liamwedge00@gmail.com]()
+**Naughty Sailor** - https://github.com/NoSleepTillLambos/TheNaughtySailor
 
 <!-- ACKNOWLEDGEMENTS -->
 
