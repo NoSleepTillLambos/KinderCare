@@ -8,7 +8,7 @@
     .front {
     transform: rotateY(90deg);
     position: absolute;
-    height: 15px;
+    height: 10px;
     transition: all ease-in 0.2s;
   }
   .flipped .front {
@@ -29,7 +29,9 @@
     padding: 10px;
     text-align: center;
   }
-  
+  p {
+    font-size: small;
+  }
 }
 
   

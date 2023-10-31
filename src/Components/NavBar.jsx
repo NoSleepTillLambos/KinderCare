@@ -26,6 +26,10 @@ function NavBar() {
         )}
         {user && (
           <li>
+            <Link to="/">Home</Link>
+            <Link to="/learning">Learning</Link>
+            <Link to="/game">Games</Link>
+            <Link to="/chat">Chat</Link>
             {!isPending && (
               <button className="btn" onClick={logout}>
                 Logout

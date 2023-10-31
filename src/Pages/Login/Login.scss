@@ -1,12 +1,30 @@
 .loginCon {
     background-image: url("../../Assets/Background/background.png");
     background-repeat: no-repeat;
-    padding: 0%;
-    margin: 0%;
-    height: 93vh;
+    height: 91vh;
     width: 100vw;
     image-rendering: -webkit-optimize-contrast;
     background-repeat: no-repeat;  
     background-size: cover;
-    margin-top: -80px;
+    
+
+    label {
+        font-size: small;
+    }
 }
+.auth-form {
+    max-width: 20%;
+    height: 50%;
+    margin: auto;
+    
+   padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+    background: #fff;
+    
+  }
+  .innerCon {
+    margin: auto;
+    padding: 8%;
+  }

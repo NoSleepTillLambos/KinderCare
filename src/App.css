@@ -43,6 +43,7 @@ ul {
 }
 .btn:hover {
   color: #fff;
+  background-color: var(--primary-color);
 }
 
 label {

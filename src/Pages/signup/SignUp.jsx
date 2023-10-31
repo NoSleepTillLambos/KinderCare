@@ -45,53 +45,55 @@ export default function SignUp() {
   };
   return (
     <div className="signupCon">
-      <form className="auth-form" onSubmit={handleSubmit}>
-        <h2>Sign up</h2>
+      <div className="innerCon">
+        <form className="auth-form" onSubmit={handleSubmit}>
+          <h2>Sign up</h2>
 
-        <label>
-          <span>Email:</span>
-          <input
-            type="email"
-            required
-            onChange={(e) => setEmail(e.target.value)}
-            value={email}
-          />
-        </label>
-        <label>
-          <span>Password:</span>
-          <input
-            type="password"
-            required
-            onChange={(e) => setPassword(e.target.value)}
-            value={password}
-          />
-        </label>
-        <label>
-          <span>Username:</span>
-          <input
-            type="text"
-            required
-            onChange={(e) => setUsername(e.target.value)}
-            value={username}
-          />
-        </label>
-        <label>
-          <span>Icon:</span>
-          <input type="file" required onChange={handleFile} />
-          {iconError && <div className="error">{iconError}</div>}
-        </label>
-        {!isPending && (
-          <button className="btn" onSubmit={handleSubmit}>
-            Sign Up
-          </button>
-        )}
-        {isPending && (
-          <button className="btn" disabled onSubmit={handleSubmit}>
-            Loading
-          </button>
-        )}
-        {error && <div className="error">{error}</div>}
-      </form>
+          <label>
+            <span>Email:</span>
+            <input
+              type="email"
+              required
+              onChange={(e) => setEmail(e.target.value)}
+              value={email}
+            />
+          </label>
+          <label>
+            <span>Password:</span>
+            <input
+              type="password"
+              required
+              onChange={(e) => setPassword(e.target.value)}
+              value={password}
+            />
+          </label>
+          <label>
+            <span>Username:</span>
+            <input
+              type="text"
+              required
+              onChange={(e) => setUsername(e.target.value)}
+              value={username}
+            />
+          </label>
+          <label>
+            <span>Icon:</span>
+            <input type="file" required onChange={handleFile} />
+            {iconError && <div className="error">{iconError}</div>}
+          </label>
+          {!isPending && (
+            <button className="btn" onSubmit={handleSubmit}>
+              Sign Up
+            </button>
+          )}
+          {isPending && (
+            <button className="btn" disabled onSubmit={handleSubmit}>
+              Loading
+            </button>
+          )}
+          {error && <div className="error">{error}</div>}
+        </form>
+      </div>
     </div>
   );
 }

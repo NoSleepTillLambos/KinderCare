@@ -102,8 +102,7 @@ export default function GamePage() {
 
   return (
     <div className="gamePage">
-      <h2>Learn by playing!</h2>
-      <button onClick={shuffleCards}>Shuffled cards</button>
+      <button onClick={shuffleCards}>Shuffle</button>
 
       <div className="grid">
         {cards.map((card) => (

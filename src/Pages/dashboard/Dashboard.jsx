@@ -18,10 +18,10 @@ export default function Dashboard() {
             Through the power of artificial intelligence, <br /> Kindercare aims
             to help grow your kids knowledge
           </p>
-          <Box image={dog} info={"Get help"} />
+          <Box image={dog} info={"Play games"} />
 
-          <Box image={plant} info={"Ask questions "} />
-          <Box image={sprinting} info={"Play games"} />
+          <Box image={plant} info={"Get help"} />
+          <Box image={sprinting} info={"Ask questions"} />
         </div>
 
         <img className="homeimg" src={homeIcon} />
