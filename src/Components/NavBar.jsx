@@ -2,9 +2,11 @@ import "./NavBar.scss";
 import Logo from "../Assets/Logo/logo.png";
 import { Link, Route } from "react-router-dom";
 import { useLogout } from "../hooks/useLogout";
+import Icon from "./Icon";
 import { useAuthContext } from "../hooks/useAuthContext";
 
 function NavBar() {
+  const { loggedInUser } = useAuthContext();
   const { logout, isPending } = useLogout();
   const { user, authIsReady } = useAuthContext();
   return (
@@ -30,8 +32,9 @@ function NavBar() {
             <Link to="/learning">Learning</Link>
             <Link to="/game">Games</Link>
             <Link to="/chat">Chat</Link>
+            <Icon />
             {!isPending && (
-              <button className="btn" onClick={logout}>
+              <button className="btn logout" onClick={logout}>
                 Logout
               </button>
             )}
