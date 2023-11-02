@@ -218,7 +218,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 ## Acknowledgements
 
 <!-- all resources that you used and Acknowledgements here -->
-
+- [Open Doodles](https://www.opendoodles.com/) (Awesome free doodles and drawings that gave me that fun and intuitive edge in my project)
 - [Firebase](https://console.firebase.google.com/)
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
