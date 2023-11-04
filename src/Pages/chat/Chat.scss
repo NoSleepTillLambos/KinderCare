@@ -1,21 +1,27 @@
 .chatCon {
     width: 70%;
     background-color: #EEEEEE;
-    height: 70vh;
+    height: 65vh;
     border-radius: 10px;
     margin-left: 2%;
     margin-top: 1%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
+::-webkit-scrollbar {
+    width: 5px;
+    
+  }
 .askBtn {
-    float: right;
-    margin-top: 38%;
     border-radius: 10px;
     height: 40px;
+    margin-left: 2.5%;
 }
 .askInput {
-    width: 80%;
+    width: 60%;
     border-radius: 10px;
-    margin-top: 38%;
+    margin-top: 2%;
     margin-left: 1rem;
     border-color: var(--heading-color);
     border-width: 1px;
@@ -27,4 +33,37 @@
     font-size: 13px;
     opacity: 0.6;
     
+}
+h4 {
+    margin-left:2%;
+    
+}
+.userText {
+    float: right;
+    background-color: #512D6D;
+    color: white;
+    font-size: 10px;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+    height: 15px;
+    padding: 10px;
+    margin: 2%;
+    min-width: 40%;
+    margin-top: 4%;
+}
+.botText {
+    float: left;
+    
+    font-size: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: var(--heading-color);
+    margin-left: 2%;
+    padding: 10px;
+    text-align: center;
+    min-width: 40%;
+    max-width: 80%;
+    
+    margin-top: 10%;
 }

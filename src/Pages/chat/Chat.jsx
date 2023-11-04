@@ -52,31 +52,28 @@ export default function Chat() {
 
   return (
     <div className="con">
-      <h4>Chat to our friendly bot and learn</h4>
+      <h4>Chat to our friendly bot</h4>
       <div className="chatCon">
         {chat.map((message, index) => (
           <div
             key={index}
-            className={`flex ${
-              message.type === "user" ? "justify-end" : "justify-start"
-            }`}
+            className={`${message.type === "user" ? "userText" : "botText"}`}
           >
             {message.message}
           </div>
         ))}
-
-        <form onSubmit={handleSubmit}>
-          <input
-            className="askInput"
-            type="text"
-            placeholder="Ask a question..."
-            onChange={(e) => setInput(e.target.value)}
-          />
-          <button className="btn askBtn" type="submit">
-            Ask question
-          </button>
-        </form>
       </div>
+      <form onSubmit={handleSubmit}>
+        <input
+          className="askInput"
+          type="text"
+          placeholder="Ask a question..."
+          onChange={(e) => setInput(e.target.value)}
+        />
+        <button className="btn askBtn" type="submit">
+          Ask question
+        </button>
+      </form>
     </div>
   );
 }
