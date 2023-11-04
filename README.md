@@ -20,7 +20,7 @@
   <h3 align="center">Kinder Care</h3>
 
   <p align="center">
-    Project is built using Firebase, ReactJs, Google dialogflow <br>
+   A kid friendly, user centred interactive website specifically designed with the sole purpose of educating young children about diseases & illnesses <br>
     
    <br />
    <a href="https://drive.google.com/drive/folders/1bHFGq7nIGPdDqJGrCNNCiSqTUyPk-h7F">View Demo</a>
@@ -132,13 +132,13 @@ Here are a couple of ways to clone this repo:
 <!-- Briefly explain your concept ideation process -->
 <!-- here you will add things like wireframing, data structure planning, anything that shows your process. You need to include images-->
 
-## Concept Process
+## Concept Process 💡
 
 **I took a lot of inspiration froma concept i saw previously from a company that showcased one of their ideas for an app they had developed early this year, the app was a hands on childs healthcare VR and AR setup where kids in hospitals could use VR to visit a virtual island where animals taught them about their diseases and the problems they were having, i found the app to be very inuitive, the UX and UI was just so inspiring i had to put it to the test and see what i could develop myself!**
 
 <img width="500" height="500" src="src/Assets/Planning/planning.png"/>
 
-### Road Map and conceptual process
+### Road Map and conceptual process 📍
 
 ![image4](assets/mockups/Frame66.png)
 ![image10](assets/userFlow.jpg)
@@ -149,12 +149,16 @@ Here are a couple of ways to clone this repo:
 
 ***Attitude over aptitude*** 
 
-### Implementation Process
+### Implementation Process ⌛
 
 <!-- stipulate all of the functionality you included in the project -->
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
 
 - A big part of the process was getting familiar with Expo and the world of mobile development and getting familiar with working on android and ios.
+
+### Peer review report 📝
+
+**These are some of the findings i made during my feedback session**
 
 #### Above And Beyond
 
@@ -169,10 +173,8 @@ Going above and beyond the brief
 
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-- In future i would like to publish the app to the app store, Firebase could be an issue however with calls to the db. I'd really like to create something real world ready.
-- Functionality to login with a Google account
-- Google reviews
-- Posting comments to the db
+- I would love to include some additional AI implementation, giving the kids thea ability to have a more hands on approach with a bot
+- Fine tune the API and create a more helpful, childlike personality for it
 
 <!-- MOCKUPS -->
 
@@ -218,7 +220,7 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 ## Acknowledgements
 
 <!-- all resources that you used and Acknowledgements here -->
-
+- [Open Doodles](https://www.opendoodles.com/) (Awesome free doodles and drawings that gave me that fun and intuitive edge in my project)
 - [Firebase](https://console.firebase.google.com/)
 - [React Native](https://reactnative.dev/)
 - [Expo](https://expo.dev/)
