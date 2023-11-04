@@ -1,0 +1,33 @@
+.user-list {
+  width: 250px;
+  min-width: 250px;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 10px;
+  height: 80vh;
+  box-sizing: border-box;
+  background: #EEEEEE;
+  color: var(--heading-color);
+
+  span {
+    font-size: small;
+  }
+}
+.user-list h3 {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+ 
+  font-size: 1.2em;
+}
+.user-list .user-list-item {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 40px auto;
+}
+.user-list .icon {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+}

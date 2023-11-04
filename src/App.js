@@ -8,6 +8,8 @@ import Login from "./Pages/Login/Login";
 import { useAuthContext } from "./hooks/useAuthContext";
 import GamePage from "./Pages/GamePage/GamePage";
 import Learning from "./Pages/Learning/Learning";
+import Chat from "./Pages/chat/Chat";
+import Friends from "./Components/Friends";
 
 function App() {
   const { user, authIsReady } = useAuthContext();
@@ -25,6 +27,10 @@ function App() {
               <Route
                 path="/learning"
                 element={user ? <Learning /> : <Navigate to="/login" />}
+              />
+              <Route
+                path="/chat"
+                element={user ? <Chat /> : <Navigate to="/login" />}
               />
               <Route
                 path="/game"

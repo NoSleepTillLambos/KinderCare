@@ -46,7 +46,7 @@ export default function Login() {
           )}
           {isPending && (
             <button className="btn" disabled onSubmit={handleSubmit}>
-              Loading
+              Logging you in
             </button>
           )}
           {error && <div className="error">{error}</div>}

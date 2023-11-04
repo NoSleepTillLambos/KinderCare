@@ -1,0 +1,22 @@
+.chatCon {
+    width: 70%;
+    border-color: var(--heading-color);
+    border-width: 2px;
+    height: 80vh;
+    border-radius: 10px;
+    border-style: solid;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+.askBtn {
+    float: right;
+    margin-top: 36%;
+}
+.askInput {
+    width: 90%;
+    margin-top: 35.5%;
+    margin-left: 1rem;
+}
+input ::placeholder {
+    font-size: small;
+}
