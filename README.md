@@ -20,7 +20,7 @@
   <h3 align="center">Kinder Care</h3>
 
   <p align="center">
-    Project is built using Firebase, ReactJs, Google dialogflow <br>
+   A kid friendly, user centred interactive website specifically designed with the sole purpose of educating young children about diseases & illnesses <br>
     
    <br />
    <a href="https://drive.google.com/drive/folders/1bHFGq7nIGPdDqJGrCNNCiSqTUyPk-h7F">View Demo</a>
