@@ -136,7 +136,7 @@ Here are a couple of ways to clone this repo:
 
 **I took a lot of inspiration froma concept i saw previously from a company that showcased one of their ideas for an app they had developed early this year, the app was a hands on childs healthcare VR and AR setup where kids in hospitals could use VR to visit a virtual island where animals taught them about their diseases and the problems they were having, i found the app to be very inuitive, the UX and UI was just so inspiring i had to put it to the test and see what i could develop myself!**
 
-<img width="600" height="300" src="src/Assets/Planning/planning.png"/>
+<img width="500" height="500" src="src/Assets/Planning/planning.png"/>
 
 ### Road Map and conceptual process 📍
 
