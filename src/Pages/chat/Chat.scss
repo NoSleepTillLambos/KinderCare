@@ -1,22 +1,30 @@
 .chatCon {
     width: 70%;
-    border-color: var(--heading-color);
-    border-width: 2px;
-    height: 80vh;
+    background-color: #EEEEEE;
+    height: 70vh;
     border-radius: 10px;
-    border-style: solid;
     margin-left: 2%;
     margin-top: 1%;
 }
 .askBtn {
     float: right;
-    margin-top: 36%;
+    margin-top: 38%;
+    border-radius: 10px;
+    height: 40px;
 }
 .askInput {
-    width: 90%;
-    margin-top: 35.5%;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 38%;
     margin-left: 1rem;
+    border-color: var(--heading-color);
+    border-width: 1px;
+    border-style: solid;
+    font-size: 13px;
+    height: 40px;
 }
-input ::placeholder {
-    font-size: small;
+.askInput::placeholder {
+    font-size: 13px;
+    opacity: 0.6;
+    
 }

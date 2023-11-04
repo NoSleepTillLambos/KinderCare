@@ -13,7 +13,7 @@ function NavBar() {
     <div className="navbar">
       <ul>
         <li className="logo">
-          <img src={Logo} style={{ marginLeft: "10px" }} alt="logo"></img>
+          <img src={Logo} style={{ marginTop: "2px" }} alt="logo"></img>
           <span>Kinder Care</span>
         </li>
         {!user && (

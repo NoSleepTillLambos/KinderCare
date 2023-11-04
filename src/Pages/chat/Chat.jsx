@@ -7,10 +7,8 @@ export default function Chat() {
   const [chat, setChat] = useState([]);
   const [loadingChat, setLoadingChat] = useState(false);
 
-  const apiKey = "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";
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
+  const handleSubmit = (event) => {
+    event.preventDefault();
     sendMessage(input);
     setChat((prevChatLog) => [
       ...prevChatLog,
@@ -24,7 +22,7 @@ export default function Chat() {
     const url = "https://api.openai.com/v1/chat/completions";
     const headers = {
       "Content-type": "application/json",
-      Authorization: `Bearer ${apiKey}`,
+      Authorization: `Bearer ${process.env.REACT_APP_OPEN_AI_API_KEY}`,
     };
     const data = {
       model: "gpt-3.5-turbo",
@@ -39,31 +37,46 @@ export default function Chat() {
         console.log(response);
         setChat((prevChatLog) => [
           ...prevChatLog,
-          { type: "bot", message: response.data.choices[0].message.content },
+          {
+            type: "bot",
+            message: response.data.choices[0].message.content,
+          },
         ]);
         setLoadingChat(false);
       })
-      .catch((error) => {
+      .catch((err) => {
+        console.log(err);
         setLoadingChat(false);
-        console.log(error);
       });
   };
+
   return (
-    <div className="chatCon">
-      <h3>Chat and make notes!</h3>
-      {chat.map((message, index) => {
-        <div key={index}>{message.message}</div>;
-      })}
-      <form onSubmit={handleSubmit}>
-        <input
-          type="text"
-          placeholder="your message"
-          value={input}
-          className="askInput"
-          onChange={(e) => setInput(e.target.value)}
-        />
-        <button className="btn askBtn">Ask</button>
-      </form>
+    <div className="con">
+      <h4>Chat to our friendly bot and learn</h4>
+      <div className="chatCon">
+        {chat.map((message, index) => (
+          <div
+            key={index}
+            className={`flex ${
+              message.type === "user" ? "justify-end" : "justify-start"
+            }`}
+          >
+            {message.message}
+          </div>
+        ))}
+
+        <form onSubmit={handleSubmit}>
+          <input
+            className="askInput"
+            type="text"
+            placeholder="Ask a question..."
+            onChange={(e) => setInput(e.target.value)}
+          />
+          <button className="btn askBtn" type="submit">
+            Ask question
+          </button>
+        </form>
+      </div>
     </div>
   );
 }
