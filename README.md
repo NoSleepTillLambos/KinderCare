@@ -223,4 +223,4 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 - [Open Doodles](https://www.opendoodles.com/) (Awesome free doodles and drawings that gave me that fun and intuitive edge in my project)
 - [Firebase](https://console.firebase.google.com/)
 - [React Native](https://reactnative.dev/)
-- [Expo](https://expo.dev/)
+![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)
