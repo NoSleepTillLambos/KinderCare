@@ -58,8 +58,9 @@
 
 ### Project Description
 
-<h4 align="center">Kindercare is a safe place for kids to learn more about their diseases and illnesses and read more about the kind of symptoms and experiences they may be having that are similar to other kids on the platform to let them know they are not alone </h4>
-
+<h3 align="center">Kindercare is a safe place for kids to learn more about their diseases and illnesses and read more about the kind of symptoms and experiences they may be having that are similar to other kids on the platform to let them know they are not alone </h3>
+<br/>
+<br/>
 ### Technologies
 
 ![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
