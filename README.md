@@ -54,7 +54,7 @@
 
 <!-- header image of project -->
 
-![image1](assets/mockups/18837903.png)
+![image1](src/Assets/Mockups/2.png)
 
 ### Project Description
 
