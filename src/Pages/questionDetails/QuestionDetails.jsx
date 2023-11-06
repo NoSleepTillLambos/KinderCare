@@ -1,9 +1,9 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useDocument } from "../../hooks/useDocument";
-import { LottiePlayer } from "lottie-react";
 import QuestionSum from "./QuestionSum";
 import Answers from "../../Components/Answers";
+import Icon from "../../Components/Icon";
 
 export default function QuestionDetails() {
   const { id } = useParams();
@@ -18,7 +18,7 @@ export default function QuestionDetails() {
         <QuestionSum questions={document} />
       </div>
       <div className="answers">
-        <Answers questions={document} />
+        <Answers question={document} />
       </div>
     </div>
   );
