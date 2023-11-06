@@ -26,7 +26,7 @@ export default function Dashboard() {
 
         <img className="homeimg" src={homeIcon} />
       </div>
-      <KommunicateBot />
+      {/* <KommunicateBot /> */}
     </div>
   );
 }

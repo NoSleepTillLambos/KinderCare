@@ -11,7 +11,7 @@ export default function OnlineUsers() {
 
   return (
     <div className="user-list">
-      <h3>Your friends</h3>
+      <h3>Friends Online:</h3>
       {isPending && <div>Loading users...</div>}
       {error && <div>{error}</div>}
       {documents &&

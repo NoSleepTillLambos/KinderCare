@@ -63,12 +63,13 @@ textarea {
   box-sizing: border-box;
   border: 1px solid #ddd;
   border-radius: 4px;
+  resize: none;
 }
 textarea {
-  min-height: 160px;
+  min-height: 80px;
 }
 .error {
-  color: red;
+  color: #f8485d;
   background: pink;
   border: 1px solid red;
   border-radius: 4px;

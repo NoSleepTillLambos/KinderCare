@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Chat.scss";
 import axios from "axios";
+import Notes from "../../Components/Notes";
 
 export default function Chat() {
   const [input, setInput] = useState("");
@@ -52,7 +53,7 @@ export default function Chat() {
 
   return (
     <div className="con">
-      <h4>Chat to our friendly bot</h4>
+      <h4>Chat & make notes</h4>
       <div className="chatCon">
         {chat.map((message, index) => (
           <div
@@ -74,6 +75,9 @@ export default function Chat() {
           Ask question
         </button>
       </form>
+      <div className="noteCon">
+        <Notes />
+      </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .signupCon {
     background-image: url("../../Assets/Background/background.png");
     background-repeat: no-repeat;
-    height: 91vh;
+    height: 88vh;
     width: 100vw;
     image-rendering: -webkit-optimize-contrast;
     background-repeat: no-repeat;  
@@ -26,4 +26,7 @@
     margin: auto;
     padding: 2%;
   }
+}
+.sBtn {
+  width: 100%;
 }

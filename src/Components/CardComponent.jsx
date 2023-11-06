@@ -11,7 +11,6 @@ export default function CardComponent({ card, makeChoice, flipped, disabled }) {
     <div className="card">
       <div className={flipped ? "flipped" : ""}>
         <div className="front" alt="cardFront">
-          <h4 className="animalName">{card.name}</h4>
           <img src={card.src} />
 
           <p className="diseaseInfo">{card.info}</p>

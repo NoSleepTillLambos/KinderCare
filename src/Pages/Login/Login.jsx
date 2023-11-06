@@ -18,7 +18,7 @@ export default function Login() {
     <div className="loginCon">
       <div className="innerCon">
         <form className="auth-form" onSubmit={handleSubmit}>
-          <h2>Login</h2>
+          <h4>Login</h4>
 
           <label>
             <span>Email:</span>
@@ -40,7 +40,7 @@ export default function Login() {
           </label>
 
           {!isPending && (
-            <button className="btn" onSubmit={handleSubmit}>
+            <button className="btn lBtn" onSubmit={handleSubmit}>
               Login
             </button>
           )}

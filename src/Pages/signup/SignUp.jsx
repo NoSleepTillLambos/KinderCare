@@ -47,7 +47,7 @@ export default function SignUp() {
     <div className="signupCon">
       <div className="innerCon">
         <form className="auth-form" onSubmit={handleSubmit}>
-          <h2>Sign up</h2>
+          <h4>Sign up</h4>
 
           <label>
             <span>Email:</span>
@@ -82,7 +82,7 @@ export default function SignUp() {
             {iconError && <div className="error">{iconError}</div>}
           </label>
           {!isPending && (
-            <button className="btn" onSubmit={handleSubmit}>
+            <button className="btn sBtn" onSubmit={handleSubmit}>
               Sign Up
             </button>
           )}

@@ -1,7 +1,7 @@
 .loginCon {
     background-image: url("../../Assets/Background/background.png");
     background-repeat: no-repeat;
-    height: 91vh;
+    height: 88vh;
     width: 100vw;
     image-rendering: -webkit-optimize-contrast;
     background-repeat: no-repeat;  
@@ -20,7 +20,7 @@
    padding: 20px;
     border-radius: 10px;
     border: 1px solid #ddd;
-    box-shadow: 3px 3px 5px rgba(0,0,0,0.05);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.09);
     background: #fff;
     
   }
@@ -28,3 +28,6 @@
     margin: auto;
     padding: 8%;
   }
+.lBtn {
+  width: 100%;
+}
