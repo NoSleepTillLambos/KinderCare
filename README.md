@@ -158,7 +158,7 @@ Here are a couple of ways to clone this repo:
 
 **These are some of the findings i made during my feedback session**
 
-<img src=""></img>
+<img src="src/Assets/Mockups/feedbackSession.png"></img>
 
 ### Future Implementation 🔮
 
