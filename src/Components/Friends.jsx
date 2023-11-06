@@ -18,7 +18,7 @@ export default function OnlineUsers() {
         documents.map((user) => (
           <div key={user.id} className="user-list-item">
             {user.online && <span className="friendsOnline"></span>}
-            <span>{user.username}</span>
+            <span>{user.displayName}</span>
             <Icon src={user.photoURL} />
           </div>
         ))}

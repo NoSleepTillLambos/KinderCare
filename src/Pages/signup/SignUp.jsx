@@ -6,7 +6,7 @@ import React, { useState } from "react";
 export default function SignUp() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [username, setUsername] = useState("");
+  const [displayName, setDisplayName] = useState("");
 
   const { signup, isPending, error } = useSignup();
   // kid icon avatar
@@ -16,7 +16,7 @@ export default function SignUp() {
   const handleSubmit = (e) => {
     e.preventDefault();
     //make sure evertthing is in order
-    signup(email, password, username, icon);
+    signup(email, password, displayName, icon);
   };
 
   const handleFile = (e) => {
@@ -72,8 +72,8 @@ export default function SignUp() {
             <input
               type="text"
               required
-              onChange={(e) => setUsername(e.target.value)}
-              value={username}
+              onChange={(e) => setDisplayName(e.target.value)}
+              value={displayName}
             />
           </label>
           <label>

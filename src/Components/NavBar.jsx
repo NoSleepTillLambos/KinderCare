@@ -6,9 +6,8 @@ import Icon from "./Icon";
 import { useAuthContext } from "../hooks/useAuthContext";
 
 function NavBar() {
-  const { loggedInUser } = useAuthContext();
   const { logout, isPending } = useLogout();
-  const { user, authIsReady } = useAuthContext();
+  const { user } = useAuthContext();
   return (
     <div className="navbar">
       <ul>
@@ -33,16 +32,10 @@ function NavBar() {
             <Link to="/game">Games</Link>
             <Link to="/learning">Learning</Link>
             <Icon />
-            {!isPending && (
-              <button className="btn logout" onClick={logout}>
-                Logout
-              </button>
-            )}
-            {isPending && (
-              <button className="btn" disabled onClick={logout}>
-                Logging out...
-              </button>
-            )}
+
+            <button className="btn logout" onClick={logout}>
+              Logout
+            </button>
           </li>
         )}
       </ul>

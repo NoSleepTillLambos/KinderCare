@@ -3,8 +3,10 @@ import "./Learning.scss";
 import Select from "react-select";
 import { useAuthContext } from "../../hooks/useAuthContext";
 import Friends from "../../Components/Friends";
+import { useCollection } from "../../hooks/useCollection";
 import { timestamp } from "../../Firebase/firebaseConfig";
-
+import { useFirestore } from "../../hooks/useFirestore";
+import { useNavigate } from "react-router-dom";
 const categories = [
   { value: "prevention", label: "Prevention" },
   { value: "preparation", label: "Preparation" },
@@ -13,6 +15,9 @@ const categories = [
 ];
 
 export default function Learning() {
+  const navigate = useNavigate();
+  const { addDocument, response } = useFirestore("questions");
+  const { isPending, error, documents } = useCollection("users");
   const { user } = useAuthContext();
   // form field values
   const [name, setName] = useState("");
@@ -33,19 +38,22 @@ export default function Learning() {
     }
 
     const askedBy = {
-      displayName: user.displayName,
+      displayName: user.username,
       photoURL: user.photoURL,
-      id: user.id,
+      id: user.uid,
     };
     const questions = {
       name,
       details,
       category: category.value,
-      dateAsked: timestamp.fromDate(Date.now),
+      dateAsked: timestamp.fromDate(new Date()),
       notes: [],
       askedBy,
     };
-    console.log(name, details, category);
+    await addDocument(questions);
+    if (!response.error) {
+      setModal(!modal);
+    }
   };
   const [modal, setModal] = useState(false);
 
