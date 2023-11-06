@@ -177,7 +177,7 @@ Here are a couple of ways to clone this repo:
 
 ### Mockups
 
-![image2](assets/mockups/2.png)
+![image2](src/Assets/Mockups/1.png)
 <br>
 ![image3](assets/mockups/3.png)
 
