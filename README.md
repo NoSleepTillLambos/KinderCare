@@ -179,7 +179,7 @@ Here are a couple of ways to clone this repo:
 
 ![image2](src/Assets/Mockups/1.png)
 <br>
-![image3](assets/mockups/3.png)
+![image3](src/Assets/Mockups/3.png)
 
 <!-- VIDEO DEMONSTRATION -->
 
