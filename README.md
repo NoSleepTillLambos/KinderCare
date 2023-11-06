@@ -164,9 +164,9 @@ Here are a couple of ways to clone this repo:
 
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
-- I would love to include some additional AI implementation, giving the kids thea ability to have a more hands on approach with a bot
-- Fine tune the API and fine tune the model even more to create a more kid friendly environment
-- I also saw a great option for a friendly & formal bot, and the ability to switch between the two from a classmate of mine that would be really cool to implement
+- **I would love to include some additional AI implementation, giving the kids thea ability to have a more hands on approach with a bot**
+- **Fine tune the API and fine tune the model even more to create a more kid friendly environment**
+- **I also saw a great option for a friendly & formal bot, and the ability to switch between the two from a classmate of mine that would be really cool to implement**
 - **I would really like a simply pop up modal for character and avatar selection instead of choosing from your pc**
 
 <!-- MOCKUPS -->
