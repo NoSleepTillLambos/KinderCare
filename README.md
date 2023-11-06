@@ -63,9 +63,8 @@
 ### Technologies
 
 ![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![ReactJs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![DialogFlow](https://img.shields.io/badge/dialogflow-FF9800?style=for-the-badge&logo=dialogflow&logoColor=white)
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![Visual Studio](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)
 
@@ -84,13 +83,13 @@ Ensure that you have the latest version of [NPM](https://www.npmjs.com/) install
 Here are a couple of ways to clone this repo:
 
 1.  GitHub Desktop </br>
-    Enter `https://github.com/NoSleepTillLambos/TheNaughtySailor` into the URL field and press the `Clone` button.
+    Enter `https://github.com/NoSleepTillLambos/KinderCare` into the URL field and press the `Clone` button.
 
 2.  Clone Repository </br>
     Run the following in the command-line to clone the project:
 
     ```sh
-    git clone https://github.com/NoSleepTillLambos/TheNaughtySailor
+    git clone https://github.com/NoSleepTillLambos/KinderCare
     ```
 
         Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
@@ -151,30 +150,23 @@ Here are a couple of ways to clone this repo:
 
 ### Implementation Process ⌛
 
-<!-- stipulate all of the functionality you included in the project -->
 <!-- This is your time to shine, explain the technical nuances of your project, how did you achieve the final outcome!-->
 
-- A big part of the process was getting familiar with Expo and the world of mobile development and getting familiar with working on android and ios.
+- Implementation started in the third week of the term when i knew the project i wanted to create and the void i knew i wanted to fill in the market of healthcare and education 
 
 ### Peer review report 📝
 
 **These are some of the findings i made during my feedback session**
 
-#### Above And Beyond
+<img src=""></img>
 
-Going above and beyond the brief
-
-<!-- what did you learn outside of the classroom and implement into your project-->
-
-- Search functionality
-- Google login and verification (todo)
-
-### Future Implementation
+### Future Implementation 🔮
 
 <!-- stipulate functionality and improvements that can be implemented in the future. -->
 
 - I would love to include some additional AI implementation, giving the kids thea ability to have a more hands on approach with a bot
-- Fine tune the API and create a more helpful, childlike personality for it
+- Fine tune the API and fine tune the model even more to create a more kid friendly environment
+- I also saw a great option for a friendly & formal bot, and the ability to switch between the two from a classmate of mine that would be really cool to implement
 
 <!-- MOCKUPS -->
 
@@ -194,7 +186,7 @@ To see a run through of the application, please click below:
 
 [View Demonstration](https://drive.google.com/drive/folders/1IiMC4ZpDRhs8Q5RuAk9rlZmzaHfeihNa)
 
-See the [open issues](https://github.com/NoSleepTillLambos/TheNaughtySailor) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/NoSleepTillLambos/KinderCare/issues) for a list of proposed features (and known issues).
 
 <!-- AUTHORS -->
 
@@ -212,15 +204,20 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 
 ## Contact
 
-**Liam Wedge** - [liamwedge00@gmail.com]()
-**Naughty Sailor** - https://github.com/NoSleepTillLambos/TheNaughtySailor
+***Liam Wedge*** - [liamwedge00@gmail.com]()
+***Kinder Care*** - [https://github.com/NoSleepTillLambos/KinderCare]()
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## Acknowledgements
+## Acknowledgements:
 
+***Technology***
+<br></br>
+![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
+![ReactJs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+
+***Illustration***
+</br>
 <!-- all resources that you used and Acknowledgements here -->
 - [Open Doodles](https://www.opendoodles.com/) (Awesome free doodles and drawings that gave me that fun and intuitive edge in my project)
-- [Firebase](https://console.firebase.google.com/)
-- [React Native](https://reactnative.dev/)
-![Expo](https://img.shields.io/badge/Expo-1B1F23?style=for-the-badge&logo=expo&logoColor=white)
