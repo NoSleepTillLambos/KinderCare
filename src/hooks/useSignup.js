@@ -27,17 +27,12 @@ export const useSignup = () => {
         throw new Error("OOPS!!! Could not complete signup");
       }
 
-      // done after user created and profile is updated
-      // update user thumbnail
-      // folder name is the users uid
       const uploadPath = `icons/${res.user.uid}/${icon.name}`;
       const userImage = await projectStorage.ref(uploadPath).put(icon);
       const imgUrl = await userImage.ref.getDownloadURL();
 
-      // add display name to user
       await res.user.updateProfile({ displayName, photoURL: imgUrl });
 
-      // create a user doc
       await projectFirestore.collection("users").doc(res.user.uid).set({
         online: true,
         displayName,

@@ -31,9 +31,7 @@ export default function Notes() {
             onChange={(e) => setNote(e.target.value)}
           ></textarea>
         </label>
-        <button style={{ borderRadius: " 10px" }} className="btn noteBtn">
-          Make note
-        </button>
+        <button className="btn noteBtn">Make note</button>
       </form>
     </div>
   );

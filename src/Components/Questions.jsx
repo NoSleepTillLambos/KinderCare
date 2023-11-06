@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./Questions.scss";
 import Icon from "./Icon";
+import { AiOutlineQuestionCircle } from "react-icons/ai";
 
 export default function Questions({ questions }) {
   return (
@@ -14,6 +15,10 @@ export default function Questions({ questions }) {
             to={`/questions/${questions.id}`}
             key={questions.id}
           >
+            <AiOutlineQuestionCircle
+              color="white"
+              style={{ float: "left", marginTop: "20px" }}
+            />
             <h4>{questions.name}</h4>
             <p>Asked: {questions.dateAsked.toDate().toDateString()}</p>
             <h6>Asked by: {questions.askedBy.displayName}</h6>

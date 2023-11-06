@@ -1,0 +1,43 @@
+.questionDetails {
+   display: flex;
+   width: 50%;
+   
+}
+
+
+  .questionSummary {
+    background-color: var(--heading-color);
+    padding: 30px;
+    width: 400px;
+    height: 80%;
+    margin: 3%;
+    float: left;
+    border-radius: 10px;
+  }
+  
+  .questionSummary p {
+    color: white;
+    font-size: 0.7rem;
+  }
+  .questionSummary h6 {
+    color: white;
+    font-size: 0.7rem;
+  }
+  .questionSummary h4 {
+    color: white;
+    font-size: 0.9em;
+  }
+  .answers {
+    float: right;
+    margin-right: 5%;
+    border-radius: 10px;
+    margin-top: 3%;
+    width: 30%;
+    height: 40vh;
+    background: #EEEEEE;
+    padding: 20px;
+    margin-top: -250px;
+  }
+  .answerTextArea {
+    width: 90%;
+  }
