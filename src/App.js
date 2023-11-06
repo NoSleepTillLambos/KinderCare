@@ -10,6 +10,7 @@ import GamePage from "./Pages/GamePage/GamePage";
 import Learning from "./Pages/Learning/Learning";
 import Chat from "./Pages/chat/Chat";
 import Friends from "./Components/Friends";
+import QuestionDetails from "./Pages/questionDetails/QuestionDetails";
 
 function App() {
   const { user, authIsReady } = useAuthContext();
@@ -35,6 +36,10 @@ function App() {
               <Route
                 path="/game"
                 element={user ? <GamePage /> : <Navigate to="/login" />}
+              />
+              <Route
+                path="/questions/:id"
+                element={user ? <QuestionDetails /> : <Navigate to="/login" />}
               />
               <Route
                 path="/signup"

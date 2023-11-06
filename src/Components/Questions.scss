@@ -1,0 +1,40 @@
+.questions {
+    margin-top: 70px;
+    display: flex;
+    width: 100%;
+    grid-gap: 30px;
+    text-decoration: none;
+   margin-left: 3%;
+   overflow: scroll;
+   
+  }
+  .questionCon {
+    background-color: #fff;
+    padding: 20px;
+    width: 20%;
+    
+    background-color: var(--heading-color);
+    border-radius: 10px;
+  }
+  .questionCon:hover {
+    opacity: 0.9;
+  }
+  .questions h4 {
+    font-size: 0.8em;
+    
+    
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    font-weight:normal;
+  }
+  .questions p {
+    color: white;
+    font-size: 0.7em;
+  }
+  h6 {
+    color: white;
+    font-size: 0.6rem;
+  }
+  
+  

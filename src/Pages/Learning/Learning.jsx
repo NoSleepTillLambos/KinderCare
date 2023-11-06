@@ -48,7 +48,7 @@ export default function Learning() {
       details,
       category: category.value,
       dateAsked: timestamp.fromDate(new Date()),
-      notes: [],
+      answers: [],
       askedBy,
     };
     await addDocument(questions);
