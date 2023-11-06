@@ -222,3 +222,4 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 </br>
 <!-- all resources that you used and Acknowledgements here -->
 - [Open Doodles](https://www.opendoodles.com/) (Awesome free doodles and drawings that gave me that fun and intuitive edge in my project)
+- [Freepik](https://www.freepik.com/) (All my mockups & animal cartoon characters came from this site, perfect and easy to use interface)
