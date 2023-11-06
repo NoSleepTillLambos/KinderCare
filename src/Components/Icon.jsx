@@ -6,7 +6,7 @@ export default function Icon({ src }) {
   const { user } = useAuthContext();
   return (
     <div className="icon">
-      <img src={user.photoURL} alt="icon"></img>
+      <img src={src} alt="icon"></img>
     </div>
   );
 }

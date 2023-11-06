@@ -31,7 +31,7 @@ function NavBar() {
             <Link to="/chat">Chat</Link>
             <Link to="/game">Games</Link>
             <Link to="/learning">Learning</Link>
-            <Icon />
+            <Icon src={user.photoURL} />
 
             <button className="btn logout" onClick={logout}>
               Logout

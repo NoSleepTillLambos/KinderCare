@@ -7,6 +7,7 @@ import { useCollection } from "../../hooks/useCollection";
 import { timestamp } from "../../Firebase/firebaseConfig";
 import { useFirestore } from "../../hooks/useFirestore";
 import { useNavigate } from "react-router-dom";
+import Questions from "../../Components/Questions";
 const categories = [
   { value: "prevention", label: "Prevention" },
   { value: "preparation", label: "Preparation" },
@@ -17,7 +18,7 @@ const categories = [
 export default function Learning() {
   const navigate = useNavigate();
   const { addDocument, response } = useFirestore("questions");
-  const { isPending, error, documents } = useCollection("users");
+  const { isPending, error, documents } = useCollection("questions");
   const { user } = useAuthContext();
   // form field values
   const [name, setName] = useState("");
@@ -38,7 +39,7 @@ export default function Learning() {
     }
 
     const askedBy = {
-      displayName: user.username,
+      displayName: user.displayName,
       photoURL: user.photoURL,
       id: user.uid,
     };
@@ -66,6 +67,8 @@ export default function Learning() {
         <button onClick={toggleModal} className="btn questionBtn">
           Ask Question
         </button>
+        {error && <p className="error">{error}</p>}
+        {documents && <Questions questions={documents} />}
         {modal && (
           <div className="create-form modal overlay">
             <form onSubmit={handleSubmit} className="modal-content">
