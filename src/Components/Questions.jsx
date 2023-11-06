@@ -22,6 +22,7 @@ export default function Questions({ questions }) {
             <h4>{questions.name}</h4>
             <p>Asked: {questions.dateAsked.toDate().toDateString()}</p>
             <h6>Asked by: {questions.askedBy.displayName}</h6>
+            <h6>Q: {questions.details}</h6>
             <Icon src={questions.askedBy.photoURL} />
           </Link>
         </div>
