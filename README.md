@@ -60,9 +60,9 @@
 
 <h3 align="center">Kindercare is a safe place for kids to learn more about their diseases and illnesses and read more about the kind of symptoms and experiences they may be having that are similar to other kids on the platform to let them know they are not alone </h3>
 <br/>
-<br/>
-### Technologies
 
+### Technologies
+<br/>
 ![Firebase](https://img.shields.io/badge/firebase-ffca28?style=for-the-badge&logo=firebase&logoColor=black)
 ![ReactJs](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
