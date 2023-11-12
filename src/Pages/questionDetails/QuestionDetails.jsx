@@ -1,9 +1,8 @@
 import React from "react";
 import { useParams } from "react-router-dom";
+import Answers from "../../Components/Answers";
 import { useDocument } from "../../hooks/useDocument";
 import QuestionSum from "./QuestionSum";
-import Answers from "../../Components/Answers";
-import Icon from "../../Components/Icon";
 
 export default function QuestionDetails() {
   const { id } = useParams();

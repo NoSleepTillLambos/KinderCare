@@ -1,7 +1,7 @@
-import React, { useState } from "react";
-import "./Chat.scss";
 import axios from "axios";
+import React, { useState } from "react";
 import Notes from "../../Components/Notes";
+import "./Chat.scss";
 
 export default function Chat() {
   const [input, setInput] = useState("");

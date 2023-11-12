@@ -1,13 +1,13 @@
 import React, { useState } from "react";
-import "./Learning.scss";
-import Select from "react-select";
-import { useAuthContext } from "../../hooks/useAuthContext";
-import Friends from "../../Components/Friends";
-import { useCollection } from "../../hooks/useCollection";
-import { timestamp } from "../../Firebase/firebaseConfig";
-import { useFirestore } from "../../hooks/useFirestore";
 import { useNavigate } from "react-router-dom";
+import Select from "react-select";
+import Friends from "../../Components/Friends";
 import Questions from "../../Components/Questions";
+import { timestamp } from "../../Firebase/firebaseConfig";
+import { useAuthContext } from "../../hooks/useAuthContext";
+import { useCollection } from "../../hooks/useCollection";
+import { useFirestore } from "../../hooks/useFirestore";
+import "./Learning.scss";
 const categories = [
   { value: "prevention", label: "Prevention" },
   { value: "preparation", label: "Preparation" },

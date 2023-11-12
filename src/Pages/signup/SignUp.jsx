@@ -1,5 +1,5 @@
-import "./SignUp.scss";
 import { useSignup } from "../../hooks/useSignup";
+import "./SignUp.scss";
 
 import React, { useState } from "react";
 

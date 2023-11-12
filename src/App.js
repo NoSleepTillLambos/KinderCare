@@ -1,16 +1,15 @@
-import "./App.css";
-import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
-import NavBar from "./Components/NavBar";
 import React from "react";
-import Dashboard from "./Pages/dashboard/Dashboard";
-import SignUp from "./Pages/signup/SignUp";
-import Login from "./Pages/Login/Login";
-import { useAuthContext } from "./hooks/useAuthContext";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
+import "./App.css";
+import NavBar from "./Components/NavBar";
 import GamePage from "./Pages/GamePage/GamePage";
 import Learning from "./Pages/Learning/Learning";
+import Login from "./Pages/Login/Login";
 import Chat from "./Pages/chat/Chat";
-import Friends from "./Components/Friends";
+import Dashboard from "./Pages/dashboard/Dashboard";
 import QuestionDetails from "./Pages/questionDetails/QuestionDetails";
+import SignUp from "./Pages/signup/SignUp";
+import { useAuthContext } from "./hooks/useAuthContext";
 
 function App() {
   const { user, authIsReady } = useAuthContext();

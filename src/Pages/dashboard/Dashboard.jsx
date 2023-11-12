@@ -1,11 +1,10 @@
-import KommunicateBot from "../../Components/KommunicateBot";
-import "./Dashboard.scss";
-import homeIcon from "../../Assets/illustrations/loving.png";
-import React, { useEffect, useState } from "react";
-import Box from "../../Components/Box";
+import React from "react";
 import dog from "../../Assets/illustrations/dog-jump.png";
+import homeIcon from "../../Assets/illustrations/loving.png";
 import plant from "../../Assets/illustrations/plant.png";
 import sprinting from "../../Assets/illustrations/sprinting.png";
+import Box from "../../Components/Box";
+import "./Dashboard.scss";
 
 export default function Dashboard() {
   return (
