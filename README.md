@@ -111,26 +111,27 @@ Here are a couple of ways to clone this repo:
 
 <!-- note how you can use your gitHub link. Just make a path to your assets folder -->
 
-![image2](assets/mockups/fetch.JPG)
+![image2](src/Assets/Mockups/feature1.png)
 
-- Users can select a pre existing competition where they can go on to vote and comment on other entries
+**Users can interact with the GPT3 chat mode/ make notes**
 
 ### Feature 2
 
-![image6](assets/mockups/home.JPG)
+![image6](src/Assets/Mockups/feature2.png)
 
-- Home page, users are introduced to the app and can then move to the create entry screen where they can enter into a cocktail comp and compete
+**Kid friendly interactive card game where users can play the guessing game & memorize cards while educating themselves**
 
 ### Feature 3
 
-![image7](assets/mockups/createEntry.JPG)
+![image7](src/Assets/Mockups/feature3.png)
 
-- Users can create a cocktail entry by uploading the details and an image of their creation, along with some details about the ingredients and other important information so users can try the recipes at home for themselves!
-- Users being able to try the cocktails out is the entire premise of the app, teaching keen learners a new hobbie!
+**A way for kids to chat & get involved in the community through a fun and intuitive QnA page, not feeling satisified? Ask the community**
 
-<!-- CONCEPT PROCESS -->
-<!-- Briefly explain your concept ideation process -->
-<!-- here you will add things like wireframing, data structure planning, anything that shows your process. You need to include images-->
+### Feature 4
+
+![image12](src/Assets/Mockups/feature4.png)
+
+**Get answers from your friends and the community at large, KinderCare focuses on growth in numbers!**
 
 ## Concept Process 💡
 
@@ -179,7 +180,7 @@ Here are a couple of ways to clone this repo:
 
 ![image2](src/Assets/Mockups/1.png)
 <br>
-![image3](assets/mockups/3.png)
+![image3](src/Assets/Mockups/3.png)
 
 <!-- VIDEO DEMONSTRATION -->
 
