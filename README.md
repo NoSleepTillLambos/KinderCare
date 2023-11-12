@@ -141,8 +141,16 @@ Here are a couple of ways to clone this repo:
 
 ### Road Map and conceptual process 📍
 
-![image4](assets/mockups/Frame66.png)
-![image10](assets/userFlow.jpg)
+![image4](src/Assets/Planning/wireframes.png)
+
+**Wireframing and conceptualising the final app, game pages, note taking etc**
+**From here the app really took shape and i could start visualising exacltly how i wanted the app to function**
+</br>
+</br>
+![image10](src/Assets/Planning/userflow.png)
+
+**Structured userflow ensuring that the users info, chats and notes are private my unauthenticated users**
+**The entire premise was for the app to be a safe place for kids to chat about their problems**
 
 <!-- DEVELOPMENT PROCESS -->
 
@@ -171,6 +179,7 @@ Here are a couple of ways to clone this repo:
 - **I also saw a great option for a friendly & formal bot, and the ability to switch between the two from a classmate of mine that would be really cool to implement**
 - **I would really like a simply pop up modal for character and avatar selection instead of choosing from your pc**
 - **Implementing some Lottie animations could definately add to the user friendly interface and childrens appeal to the app**
+- **Being a kids web app I would like to include some more functionality to protect the children and the things they've shared with others**
 
 <!-- MOCKUPS -->
 
