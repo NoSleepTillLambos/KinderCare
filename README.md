@@ -125,7 +125,7 @@ Here are a couple of ways to clone this repo:
 
 ![image7](src/Assets/Mockups/feature3.png)
 
-**A way for kids to chat & get involved in the community through a fun and intuitive QnA page, not feeling satisified? Ask the community**
+**A way for kids to chat & get involved in the community through a fun and intuitive QnA page, not feeling satisified? Ask the community and let them get back to you**
 
 ### Feature 4
 
@@ -179,7 +179,7 @@ Here are a couple of ways to clone this repo:
 - **I also saw a great option for a friendly & formal bot, and the ability to switch between the two from a classmate of mine that would be really cool to implement**
 - **I would really like a simply pop up modal for character and avatar selection instead of choosing from your pc**
 - **Implementing some Lottie animations could definately add to the user friendly interface and childrens appeal to the app**
-- **Being a kids web app I would like to include some more functionality to protect the children and the things they've shared with others**
+- **Being a kids web app I would like to include some more functionality to protect the children as well the thoughts they've shared with the community at large, this is still a security risk at the moment, with the help of a an extra layer of authentication when submitting questions and adding friends that you know***
 
 <!-- MOCKUPS -->
 
