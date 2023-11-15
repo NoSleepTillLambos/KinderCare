@@ -20,7 +20,7 @@
   <h3 align="center">Kinder Care</h3>
 
   <p align="center">
-   A kid friendly, user centred interactive website specifically designed with the sole purpose of educating young children about diseases & illnesses <br>
+   A kid friendly, user centred, AI powered web app specifically designed with the sole purpose of educating children of all ages about disease prevention & illnesses <br>
     
    <br />
    <a href="https://drive.google.com/drive/folders/1bHFGq7nIGPdDqJGrCNNCiSqTUyPk-h7F">View Demo</a>
@@ -125,7 +125,7 @@ Here are a couple of ways to clone this repo:
 
 ![image7](src/Assets/Mockups/feature3.png)
 
-**A way for kids to chat & get involved in the community through a fun and intuitive QnA page, not feeling satisified? Ask the community**
+**A way for kids to chat & get involved in the community through a fun and intuitive QnA page, not feeling satisified? Ask the community and let them get back to you**
 
 ### Feature 4
 
@@ -141,8 +141,16 @@ Here are a couple of ways to clone this repo:
 
 ### Road Map and conceptual process 📍
 
-![image4](assets/mockups/Frame66.png)
-![image10](assets/userFlow.jpg)
+![image4](src/Assets/Planning/wireframes.png)
+
+**Wireframing and conceptualising the final app, game pages, note taking etc**
+**From here the app really took shape and i could start visualising exacltly how i wanted the app to function**
+</br>
+</br>
+![image10](src/Assets/Planning/userflow.png)
+
+**Structured userflow ensuring that the users info, chats and notes are private my unauthenticated users**
+**The entire premise was for the app to be a safe place for kids to chat about their problems**
 
 <!-- DEVELOPMENT PROCESS -->
 
@@ -171,6 +179,7 @@ Here are a couple of ways to clone this repo:
 - **I also saw a great option for a friendly & formal bot, and the ability to switch between the two from a classmate of mine that would be really cool to implement**
 - **I would really like a simply pop up modal for character and avatar selection instead of choosing from your pc**
 - **Implementing some Lottie animations could definately add to the user friendly interface and childrens appeal to the app**
+- **Being a kids web app I would like to include some more functionality to protect the children as well the thoughts they've shared with the community at large, this is still a security risk at the moment, with the help of a an extra layer of authentication when submitting questions and adding friends that you know***
 
 <!-- MOCKUPS -->
 
